@@ -1,0 +1,47 @@
+footer {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+}
+
+.icons {
+    width: 30%;
+    font-size: 24px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.facebook-icon {
+    color: dodgerblue;
+}
+
+.facebook-icon:hover {
+    opacity: 0.5;
+}
+
+.instagram-icon {
+    color: orange;
+}
+
+.instagram-icon:hover {
+    opacity: 0.5;
+}
+
+.youtube-icon {
+    color: red;
+}
+
+.youtube-icon:hover {
+    opacity: 0.5;
+}
+
+.twitter-icon {
+    color: white;
+}
+
+.twitter-icon:hover {
+    opacity: 0.5;
+}
