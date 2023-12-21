@@ -1,0 +1,13 @@
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mouse-link {
+    cursor: pointer;
+}
+
+.pokemon-card {
+    margin-bottom: 10px;
+}

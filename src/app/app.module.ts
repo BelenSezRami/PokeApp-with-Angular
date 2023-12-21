@@ -10,6 +10,9 @@ import { HomePageComponent } from './Components/home-page/home-page.component';
 import { ErrorPageComponent } from './Components/error-page/error-page.component';
 import { ListPageComponent } from './Components/list-page/list-page.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CapitalizePipe } from './pipes/capitalize.pipe';
+import { LoaderComponent } from './Components/loader/loader.component';
+import { DetailsComponent } from './Components/details/details.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { HttpClientModule } from '@angular/common/http';
     MenuComponent,
     HomePageComponent,
     ErrorPageComponent,
-    ListPageComponent
+    ListPageComponent,
+    CapitalizePipe,
+    LoaderComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,

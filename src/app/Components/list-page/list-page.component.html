@@ -1,1 +1,16 @@
-<p>list-page works!</p>
+<h4>Todos los pokemones</h4>
+
+<app-loader *ngIf="isLoading"></app-loader>
+
+<div class="pokemon-list mouse-link" *ngIf="!isLoading">
+
+    <div class="card pokemon-card" style="width: 12rem;" *ngFor="let pokemon of pokemonArr"
+        [routerLink]="['/details/' + pokemon.id]">
+        <img src="{{pokemon.urlImage}}" class="card-img-top" alt="{{pokemon.name}}">
+        <div class="card-body">
+            <p>{{pokemon.id}}</p>
+            <h6 class="card-text">{{pokemon.name | capitalize}}</h6>
+        </div>
+    </div>
+
+</div>
